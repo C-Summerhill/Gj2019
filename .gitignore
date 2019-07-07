@@ -50,12 +50,12 @@ Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
-Build/*
+Game/Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
-Build/*/**
-!Build/*/PakBlacklist*.txt
+Game/!Build/*/
+Game/Build/*/**
+Game/!Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
 !Build/**/*.ico
@@ -72,3 +72,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Game/Binaries/Win64/gj2019.pdb
